@@ -9,7 +9,7 @@ At the end, the full code is included for easy copy-paste.
 **What I did:** Created the HTML skeleton, set the title, and linked `styles.css`.  
 **Why this matters:** Keeps structure and styles separate for easier maintenance.  
 
-html
+```html
 <!DOCTYPE html>
 <html lang="en">
   <head>
