@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Game Feedback Survey</h1>
+      <p id="description">
+        We’d love your feedback! Please fill out this short survey so we can improve our games and your experience.
+      </p>
+
+      <form id="survey-form">
+        <!-- Name -->
+        <label id="name-label" for="name">Name:</label>
+        <input
+          id="name"
+          type="text"
+          name="name"
+          placeholder="Enter your full name"
+          required
+        />
+
+        <!-- Email -->
+        <label id="email-label" for="email">Email:</label>
+        <input
+          id="email"
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        />
+
+        <!-- Number -->
+        <label id="number-label" for="number">Age:</label>
+        <input
+          id="number"
+          type="number"
+          name="age"
+          placeholder="Enter your age"
+          min="10"
+          max="100"
+          required
+        />
+
+        <!-- Dropdown -->
+        <label for="dropdown">Favorite Game Genre:</label>
+        <select id="dropdown" name="genre">
+          <option value="">Select one</option>
+          <option value="rpg">RPG</option>
+          <option value="fps">FPS</option>
+          <option value="sports">Sports</option>
+          <option value="strategy">Strategy</option>
+        </select>
+
+        <!-- Radio buttons -->
+        <p>How often do you play games?</p>
+        <label>
+          <input type="radio" name="frequency" value="daily" /> Daily
+        </label>
+        <label>
+          <input type="radio" name="frequency" value="weekly" /> Weekly
+        </label>
+        <label>
+          <input type="radio" name="frequency" value="monthly" /> Monthly
+        </label>
+
+        <!-- Checkboxes -->
+        <p>Which platforms do you play on? (Check all that apply)</p>
+        <label>
+          <input type="checkbox" value="pc" /> PC
+        </label>
+        <label>
+          <input type="checkbox" value="console" /> Console
+        </label>
+        <label>
+          <input type="checkbox" value="mobile" /> Mobile
+        </label>
+
+        <!-- Textarea -->
+        <label for="comments">Additional Comments:</label>
+        <textarea
+          id="comments"
+          name="comments"
+          placeholder="Share your thoughts here..."
+        ></textarea>
+
+        <!-- Submit -->
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
