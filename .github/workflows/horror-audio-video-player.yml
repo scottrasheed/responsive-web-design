@@ -20,8 +20,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Ensure this path matches the folder containing your index.html
-          path: 'responsive-web-design/horror-audio-video-player'
+          # This points to the folder containing your index.html
+          path: 'horror-audio-video-player'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
