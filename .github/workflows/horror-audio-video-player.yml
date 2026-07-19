@@ -20,7 +20,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # This path must match your folder structure exactly
+          # This matches the folder path shown in your latest screenshot
           path: 'responsive-web-design/horror-audio-video-player'
       - name: Deploy to GitHub Pages
         id: deployment
