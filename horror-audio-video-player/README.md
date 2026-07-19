@@ -4,7 +4,7 @@ A horror-themed multimedia experience built with HTML. This project features a B
 
 ## Live Demo
 
-🔗 [View The Backrooms: Level 13][https://scottrasheed.github.io/responsive-web-design/]
+🔗 [View The Backrooms: Level 13](https://scottrasheed.github.io/responsive-web-design/)
 
 ## Project Preview
 
