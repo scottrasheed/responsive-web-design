@@ -1,2 +1,5 @@
-with:
-  path: 'horror-audio-video-player'
+- name: Upload artifact
+  uses: actions/upload-pages-artifact@v3
+  with:
+    # This must be the folder that contains your index.html
+    path: 'horror-audio-video-player'
